@@ -1,0 +1,32 @@
+.btn {
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    font-family: inherit;
+    font-size: 14px;
+    background-color: steelblue;
+    color:white;
+    transition: 0.4s all;
+    cursor: pointer;
+    padding: 0 20px;
+}    
+
+.btn:hover{
+    background-color: rgb(14, 212, 113);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:active{
+    background-color: rgb(5, 133, 69);
+}
+
+@media(max-width:600px){
+    .btn{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
